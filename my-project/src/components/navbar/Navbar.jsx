@@ -32,8 +32,8 @@ const MenuData = [
 const Navbar = () => {
   return (
     <>
-    <nav className='bg-black text-white py-3'>
-      <div className="container flex justify-between">
+    <nav className=''>
+      <div className=" bg-black/40 backdrop-blur-sm py-3 container flex justify-between rounded-full">
         {/* Logo section */}
         <img src={Logo} alt="" className='max-w-[120px]' />
         {/* Menu section */}
