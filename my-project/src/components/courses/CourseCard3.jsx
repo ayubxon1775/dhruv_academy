@@ -1,10 +1,10 @@
 import React from 'react'
 import CardText from './utility/CardText'
-import CourseImg from '../../assets/banner1.png'
+import CourseImg from '../../assets/banner3.png'
 
 const courseData = {
   subtitle: "Content creation",
-  title: 'the youtube blueprint: Make content creation your career',
+  title: 'how to do a million things all at once',
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, voluptatem! Culpa, quia repellendus, fugiat quidem labore recusandae perferendis soluta exercitationem provident quos vitae in voluptatum suscipit, quam reprehenderit tempore corrupti.',
   benefits: [
     'Lorem ipsum dolor sit amet consectetur adipis',
@@ -15,7 +15,7 @@ const courseData = {
   link: '#'
 }
 
-const CourseCard = () => {
+const CourseCard3 = () => {
   return (
     <>
   <section className='py-12'>
@@ -37,4 +37,4 @@ const CourseCard = () => {
   )
 }
 
-export default CourseCard
+export default CourseCard3

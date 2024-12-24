@@ -1,5 +1,7 @@
 import React from 'react'
 import CourseCard from './CourseCard'
+import CourseCard2 from './CourseCard2'
+import CourseCard3 from './CourseCard3'
 
 const Courses = () => {
   return (
@@ -13,6 +15,8 @@ const Courses = () => {
       </div>
       {/* Courses */}
       <CourseCard/>
+      <CourseCard2/>
+      <CourseCard3/>
       {/* Card */}
       </div>
     </section>
