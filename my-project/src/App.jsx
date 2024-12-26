@@ -3,6 +3,7 @@ import Hero from './components/hero/Hero'
 import Brand from './components/brand/Brand'
 import Courses from './components/courses/Courses'
 import Testimonials from './components/testimonials/Testimonials'
+import FocusOn from './components/focusOn/FocusOn'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Brand/>
       <Courses/>
       <Testimonials/>
+      <FocusOn/>
     </main>
   )
 }
