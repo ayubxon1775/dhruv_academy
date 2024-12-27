@@ -6,7 +6,7 @@ import CourseCard3 from './CourseCard3'
 const Courses = () => {
   return (
     <>
-    <section className='py-14 md:py-24' >
+    <section className='py-14 md:py-24 bg-[#222222]' >
       <div className="container">
         {/* Title */}
       <div className="text-center">
