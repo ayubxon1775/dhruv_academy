@@ -13,7 +13,7 @@ const FocusOn = () => {
                     {/* Card section */}
                     <div className=" 'mt-12 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-8  ">
                         <div className=" space-y-4 bg-[#111111] px-8 py-14 rounded-3xl">
-                            <div className="flex gap-6 justify-between ">
+                            <div className="flex flex-wrap xl:flex-nowrap gap-6 justify-between ">
                                 <p className="text-4xl pr-5 font-bold">REAL WORLD SKILLS</p>
                                 <div className=" bg-white text-black h-24 w-24 flex-shrink-0 flex justify-center items-center rounded-3xl">
                                     <IoChatboxEllipsesSharp className="text-5xl"/>
@@ -22,7 +22,7 @@ const FocusOn = () => {
                             <p className="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis atque unde?</p>
                         </div>
                         <div className=" space-y-4 bg-[#111111] px-8 py-14 rounded-3xl">
-                            <div className="flex gap-6 justify-between ">
+                            <div className="flex flex-wrap xl:flex-nowrap gap-6 justify-between ">
                                 <p className="text-4xl pr-5 font-bold">REAL WORLD SKILLS</p>
                                 <div className=" bg-white text-black h-24 w-24 flex-shrink-0 flex justify-center items-center rounded-3xl">
                                     <IoChatboxEllipsesSharp className="text-5xl"/>
@@ -31,7 +31,7 @@ const FocusOn = () => {
                             <p className="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis atque unde?</p>
                         </div>
                         <div className=" space-y-4 bg-[#111111] px-8 py-14 rounded-3xl">
-                            <div className="flex gap-6 justify-between ">
+                            <div className="flex flex-wrap xl:flex-nowrap gap-6 justify-between ">
                                 <p className="text-4xl pr-5 font-bold">REAL WORLD SKILLS</p>
                                 <div className=" bg-white text-black h-24 w-24 flex-shrink-0 flex justify-center items-center rounded-3xl">
                                     <IoChatboxEllipsesSharp className="text-5xl"/>
@@ -44,7 +44,7 @@ const FocusOn = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8">
                         <div className=" space-y-4 bg-[#111111] px-8 py-14 rounded-3xl">
-                            <div className="flex gap-6 justify-between ">
+                            <div className="flex flex-wrap xl:flex-nowrap gap-6 justify-between ">
                                 <p className="text-4xl pr-5 font-bold">REAL WORLD SKILLS</p>
                                 <div className=" bg-white text-black h-24 w-24 flex-shrink-0 flex justify-center items-center rounded-3xl">
                                     <IoChatboxEllipsesSharp className="text-5xl"/>
@@ -53,7 +53,7 @@ const FocusOn = () => {
                             <p className="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis atque unde?</p>
                         </div>
                         <div className=" space-y-4 bg-[#111111] px-8 py-14 rounded-3xl">
-                            <div className="flex gap-6 justify-between ">
+                            <div className="flex flex-wrap xl:flex-nowrap gap-6 justify-between ">
                                 <p className="text-4xl pr-5 font-bold">REAL WORLD SKILLS</p>
                                 <div className=" bg-white text-black h-24 w-24 flex-shrink-0 flex justify-center items-center rounded-3xl">
                                     <IoChatboxEllipsesSharp className="text-5xl"/>

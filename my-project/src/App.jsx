@@ -4,6 +4,7 @@ import Brand from './components/brand/Brand'
 import Courses from './components/courses/Courses'
 import Testimonials from './components/testimonials/Testimonials'
 import FocusOn from './components/focusOn/FocusOn'
+import About from './components/about/About'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Courses/>
       <Testimonials/>
       <FocusOn/>
+      <About/>
     </main>
   )
 }
