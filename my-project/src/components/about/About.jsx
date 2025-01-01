@@ -1,5 +1,6 @@
 import React from 'react'
-import CourseImg from '../../assets/banner4.png'
+import CourseImg from '../../assets/banner4.png';
+import {FaYoutube, FaInstagram, FaTwitter, FaFacebook} from 'react-icons/fa'
 
 
 const About = () => {
@@ -27,13 +28,13 @@ const About = () => {
         </p>
 
         {/* social icons */}
-          <div>
-            <p>Find Dhruv on: </p>
-            <div>
-              <i className='fa-brands fa-facebook'></i>
-              <i className='fa-brands fa-twitter'></i>
-              <i className='fa-brands fa-linkedin'></i>
-              <i className='fa-brands fa-youtube'></i>
+          <div className='flex items-center gap-3 bg-white/10 px-4 py-3 w-fit rounded-full'>
+            <p className='text-lg font-semibold'>Find Dhruv on: </p>
+            <div className='flex items-center gap-3'>
+             <div className='iconStyle'> <FaYoutube/></div>
+              <div className='iconStyle'><FaInstagram/></div>
+              <div className='iconStyle'><FaTwitter/></div>
+              <div className='iconStyle'><FaFacebook/></div>
             </div>
           </div>
 
