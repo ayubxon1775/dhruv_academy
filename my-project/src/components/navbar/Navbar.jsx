@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <>
     <nav className=''>
-      <div className=" bg-black/40 backdrop-blur-sm py-3 container flex justify-between rounded-full">
+      <div className=" bg-black/50 backdrop-blur-3xl py-3 container flex items-center justify-between rounded-full relative z-[99999]">
         {/* Logo section */}
         <img src={Logo} alt="" className='max-w-[120px]' />
         {/* Menu section */}
@@ -43,7 +43,7 @@ const Navbar = () => {
             MenuData.map((item) => {
               return(
                 <li key={item.id}>
-                  <a className='uppercase text-xs' href={item.url}>{item.title}</a>
+                  <a className='uppercase text-xs hover:border-b border-white' href={item.url}>{item.title}</a>
                 </li>
               )
             })

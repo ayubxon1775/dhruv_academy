@@ -15,7 +15,11 @@ const Hero = () => {
     return (
         <>
             <section style={bgStyle} className="py-3">
-              <Navbar/>
+                {/* Navbar section */}
+                <div className="fixed top-3 w-full z-[99999]">
+                    <Navbar/>
+                </div>
+              
                 <div className="container min-h-[600px] grid grid-cols-1 md:grid-cols-2">
                     {/* Text content section */}
                     <div className="flex flex-col justify-center gap-5 h-full">
