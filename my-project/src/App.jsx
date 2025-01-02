@@ -6,6 +6,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import FocusOn from './components/focusOn/FocusOn'
 import About from './components/about/About'
 import Work from './components/work/Work'
+import Footer from './components/footer/Footer'
 
 
 
@@ -20,7 +21,7 @@ const App = () => {
       <FocusOn/>
       <About/>
       <Work/>
-     
+     <Footer/>
     </main>
   )
 }
