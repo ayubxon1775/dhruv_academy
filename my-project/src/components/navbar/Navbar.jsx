@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
+import {RxHamburgerMenu} from 'react-icons/rx'
+import ResponsiveMenu from './ResponsiveMenu';
 
 const MenuData = [
   {
@@ -30,6 +32,7 @@ const MenuData = [
 ];
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = React.useState(false)
   return (
     <>
     <nav className=''>
@@ -42,18 +45,21 @@ const Navbar = () => {
           {
             MenuData.map((item) => {
               return(
-                <li key={item.id}>
+                <li key={item.id} className='hidden md:block'>
                   <a className='uppercase text-xs hover:border-b border-white' href={item.url}>{item.title}</a>
                 </li>
               )
             })
           }
-          <li>
+          <li className='flex items-center gap-4'>
             <button className='border border-white px-4 py-1 rounded-full'>Login</button>
+            <button onClick={() => setIsOpen(!isOpen)} className='block md:hidden text-2xl font-bold'><RxHamburgerMenu/></button>
           </li>
           </ul>
         </div>
       </div>
+      {/* Menu Responsive menu  */}
+      <ResponsiveMenu isOpen={isOpen}/>
     </nav>
     </>
   )

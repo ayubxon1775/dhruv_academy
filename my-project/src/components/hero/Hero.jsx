@@ -14,7 +14,7 @@ const bgStyle = {
 const Hero = () => {
     return (
         <>
-            <section style={bgStyle} className="py-3">
+            <section style={bgStyle} className="pt-3">
                 {/* Navbar section */}
                 <div className="fixed top-3 w-full z-[99999]">
                     <Navbar/>
