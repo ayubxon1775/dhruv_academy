@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <>
     <nav className=''>
-      <div className=" bg-black/50 backdrop-blur-3xl py-3 container flex items-center justify-between rounded-full relative z-[99999]">
+      <div className=" bg-black/60 backdrop-blur-3xl py-3 container flex items-center justify-between rounded-full relative z-[99999]">
         {/* Logo section */}
         <img src={Logo} alt="" className='max-w-[120px]' />
         {/* Menu section */}
